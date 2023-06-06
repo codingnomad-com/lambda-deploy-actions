@@ -1,0 +1,45 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/19.8.1/bin/node /opt/homebrew/bin/yarn add --dev typescript @types/aws-lambda @types/node --exact
+
+PATH: 
+  /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.8.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+npm manifest: 
+  {
+    "name": "pokelib-sync",
+    "version": "0.0.1",
+    "description": "## Lambda",
+    "main": "index.js",
+    "scripts": {
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pokelibrary/pokelib-sync.git"
+    },
+    "author": "Manuel Bachl",
+    "license": "UNLICENSED",
+    "bugs": {
+      "url": "https://github.com/pokelibrary/pokelib-sync/issues"
+    },
+    "homepage": "https://github.com/pokelibrary/pokelib-sync#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
